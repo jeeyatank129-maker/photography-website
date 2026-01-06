@@ -1,5 +1,5 @@
 
-# ✨ A Photography & Videography Booking Website
+# ✨ A Photography & Videography Service Booking Website
 
 This is a dynamic, full-stack web application designed for professional photographers and videographers. It allows clients to browse services and book appointments for events (Weddings, Birthdays, Corporate, etc.) through an integrated system.
 
