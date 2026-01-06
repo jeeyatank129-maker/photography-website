@@ -24,44 +24,37 @@ This is a dynamic, full-stack web application designed for professional photogra
 
 ## 📂 Project Structure
 
+```text
 A-photography-website/
-├── admin/                            # Admin Panel (14 PHP management files)
-    └── css/                          # Admin-specific styling (2 CSS files)
-        └── appointments_ap.css  
-        └── gallery.css
-    └── index.php                    
-    └── dashboard.php 
-    └── sidebar.php 
-    └── client_appointment.php 
-    └── approved.php 
-    └── pendding.php 
-    └── categories.php 
-    └── gallery.php 
-    └── all_photo.php 
-    └── function.php 
-    └── delete.php 
-    └── upload.php 
-    └── users.php 
-    └── logout.php 
-├── css/                    # Main website stylesheets user-side
-    └── style.css 
-├── images/                  # Main website stylesheets user-side
-    └── logo-icons/          # containg 5 PNG files of social icons & website logo  
-├── uploads/                 # contain dynamically uploaded images from admin side
-├── images/                  # PHP partials & reusable components
-├── sql/                     # Database export (photolensdb.sql)
-├── config.php               # Database connection & global settings
-├── login.php
-├── logout.php
+├── admin/                     # Admin Panel (Child of Root)
+│   ├── css/                   # Child of Admin
+│   │   ├── appointments_ap.css
+│   │   └── gallery.css
+│   ├── index.php
+│   ├── dashboard.php
+│   ├── sidebar.php
+│   ├── client_appointment.php
+│   ├── approved.php
+│   ├── pendding.php
+│   ├── categories.php
+│   ├── gallery.php
+│   ├── all_photo.php
+│   ├── function.php
+│   ├── delete.php
+│   ├── upload.php
+│   ├── users.php
+│   └── logout.php
+├── css/                       # User-side styling
+│   └── style.css
+├── logo-icons/                # Assets folder
+├── uploads/                   # Dynamic uploads
+├── sql/                       # Database file
+│   └── photolensdb.sql
+├── config.php                 # Core settings
 ├── header.php
 ├── footer.php
-├── config.php
 ├── home.php
-├── gallery.php
-├── book.php
-├── registration.php
-└── book.php            
-
+└── registration.php
 
 ## 🛠️ Installation & Setup
 
