@@ -72,5 +72,5 @@ A-photography-website/
 * **Tech Stack Details:** It clearly shows you know how to use **Bootstrap** for styling and **MySQL** for data.
 * **Project Structure:** This section tells people exactly where to find your sub-folders.
 
-**Would you like me to help you write the code for the `db_connection.php` file or the `.gitignore` file to keep your database passwords safe?**
+
 
