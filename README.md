@@ -66,16 +66,8 @@ A-photography-website/
 
 1. **Clone the repo:** `https://github.com/YourUsername/A-photography-website.git`
 2. **Database:** Import the `photolensdb.sql` file from the `/sql` folder into your local phpMyAdmin.
-3. **Configure:** Update `includes/db_connection.php` with your local database credentials.
-4. **Run:** Open the project in XAMPP/WAMP (e.g., `http://localhost/A-photography-website`).
+3. **Four Tables :** users, categories, appointment, photos 
+4. **Configure:** Update `includes/db_connection.php` with your local database credentials.
+5. **Run:** Open the project in XAMPP/WAMP (e.g., `http://localhost/A-photography-website`).
 
 ---
-
-### Why this structure is good:
-
-* **Visual Appeal:** Using emojis (✨, 🧰, 📂) makes the page easier to scan.
-* **Tech Stack Details:** It clearly shows you know how to use **Bootstrap** for styling and **MySQL** for data.
-* **Project Structure:** This section tells people exactly where to find your sub-folders.
-
-
-
