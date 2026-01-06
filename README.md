@@ -54,13 +54,18 @@ A-photography-website/
 ├── header.php
 ├── footer.php
 ├── home.php
-└── registration.php
+├── gallery.php
+├── contact.php
+├── book.php
+├── registration.php
+├── login.php
+└── logout.php
 ```
 
 ## 🛠️ Installation & Setup
 
 1. **Clone the repo:** `https://github.com/YourUsername/A-photography-website.git`
-2. **Database:** Import the `.sql` file from the `/sql` folder into your local phpMyAdmin.
+2. **Database:** Import the `photolensdb.sql` file from the `/sql` folder into your local phpMyAdmin.
 3. **Configure:** Update `includes/db_connection.php` with your local database credentials.
 4. **Run:** Open the project in XAMPP/WAMP (e.g., `http://localhost/A-photography-website`).
 
