@@ -46,11 +46,12 @@ A-photography-website/
 │   └── logout.php
 ├── css/                       # User-side styling
 │   └── style.css
-├── logo-icons/                # Assets folder
-├── uploads/                   # Dynamic uploads
-├── sql/                       # Database file
-│   └── photolensdb.sql
-├── config.php                 # Core settings
+├── images/                       # User-side styling
+│   └── logo-icons/                # Assets folder
+├── uploads/                   # Containing images dynamically uploded photos by admin 
+├── sql/                        # Database file
+│   └── photolensdb.sql         #containg 4 tables
+├── config.php                 # Core settings of database connection
 ├── header.php
 ├── footer.php
 ├── home.php
