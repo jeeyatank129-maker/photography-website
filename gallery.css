@@ -1,0 +1,29 @@
+/* - - css applied in all_photos.php & gallery.php- - */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+}
+.gallery-item {
+    width: 220px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}

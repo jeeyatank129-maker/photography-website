@@ -1,0 +1,86 @@
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f6fa;
+        }
+.main-content {
+                margin-left: 260px;       
+                padding: 20px;
+              }
+     h1 {
+          color: #092635;
+          margin-bottom: 10px;
+        }
+p.total {
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: right;
+            color: #34495e;
+        }
+
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background: #092635;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tr:hover {
+            background: #eef5f7;
+        }
+
+
+   .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+/* Approve */
+    button[value="approve"] {
+        background:  #27ae60;
+    }
+    button[value="approve"]:hover {
+        background:  #219150;
+    }
+
+/* pendding */
+    button[value="pending"] {
+        background: #f39c12;
+    }
+    button[value="pending"]:hover {
+        background: #d68910;
+    }
+
+/* delete button */
+    button[value="delete"] {
+        background: #e74c3c;
+    }
+    button[value="delete"]:hover {
+        background: #c0392b;
+    }
