@@ -60,7 +60,7 @@ A-photography-website/
 ├── gallery.php
 ├── book.php
 ├── registration.php
-└── book.php             # Global website header
+└── book.php            
 
 
 ## 🛠️ Installation & Setup
