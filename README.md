@@ -1,8 +1,3 @@
-It looks like you have a great start to your **README.md** file! Since your project uses a full stack (PHP, MySQL, Bootstrap, etc.), you want to make it look professional so anyone visiting your repository understands how it works.
-
-Here is a polished template you can copy and paste into your README. I have filled in the "Tech Stack" and "Project Structure" based on the details you provided.
-
----
 
 # ✨ A Photography & Videography Booking Website
 
