@@ -8,7 +8,7 @@ This is a dynamic, full-stack web application designed for professional photogra
 * **Dynamic Booking System:** Clients can choose between photography, videography, or combo packages.
 * **Responsive Design:** Fully mobile-friendly UI built with Bootstrap.
 * **Database Management:** Stores appointment details, client info, and event types securely in MySQL.
-* **Admin Dashboard:** (If you have one) Manage bookings and view upcoming event schedules.
+* **Admin Dashboard:** Manage client's appointments by approve,penidng,delete bookings and view upcoming event schedules.
 
 ## 🧰 Tech Stack
 
