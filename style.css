@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #092635;
+}
+
+/* reistration / login form */
+h2{
+  text-align: center;
+  color: #092635;
+  margin-bottom: 20px;
+}   
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+button {
+    background: #092635;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #145252;
+}
+.message {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}
+.p2 {
+    text-align: center;
+}
+.p2 a {
+    color: #092635;
+    text-decoration: none;
+    font-weight: bold;
+}
+.p2 a:hover {
+    text-decoration: underline;
+}
