@@ -55,6 +55,7 @@ A-photography-website/
 ├── footer.php
 ├── home.php
 └── registration.php
+```
 
 ## 🛠️ Installation & Setup
 
